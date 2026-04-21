@@ -1,7 +1,7 @@
 import "dotenv/config";
 
 import express from "express";
-import { PostgresHelper } from "./src/db/postgres/helpers.ts";
+import { PostgresHelper } from "./src/db/postgres/helpers.js";
 
 const app = express();
 
