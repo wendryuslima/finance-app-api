@@ -1,6 +1,6 @@
 import { PostgresHelper } from "../../db/postgres/helpers.js";
 
-interface CreateUserRepository {
+export interface CreateUserRepository {
   ID: string;
   firstName: string;
   lastName: string;
